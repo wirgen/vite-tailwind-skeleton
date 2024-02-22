@@ -4,7 +4,11 @@ export default {
     "src/*.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'red': '#FF0000',
+      },
+    },
   },
   plugins: [],
 }
